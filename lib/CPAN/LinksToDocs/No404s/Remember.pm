@@ -3,7 +3,7 @@ package CPAN::LinksToDocs::No404s::Remember;
 use warnings;
 use strict;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use base qw(Class::Data::Accessor  CPAN::LinksToDocs);
 use Carp;
@@ -476,11 +476,11 @@ Below are the known tags for CPAN::LinksToDocs::No404s::Remember module:
 =head1 SEE ALSO
 
 L<http://tnx.nl/404>, L<CPAN::LinksToDocs>,
-L<CPAN::LinksToDocs::No404s::Remember>,
-L<POE::Component::IRC::Plugin::CPAN::LinksToDocs>,
+L<CPAN::LinksToDocs::No404s>,
 L<POE::Component::CPAN::LinksToDocs::No404s::Remember>
-L<POE::Component::CPAN::LinksToDocs::No404s::Remember>,
-L<POE::Component::IRC::Plugin::CPAN::LinksToDocs::No404s::Remember>,
+L<POE::Component::CPAN::LinksToDocs::No404s>,
+L<POE::Component::IRC::Plugin::CPAN::LinksToDocs>,
+L<POE::Component::IRC::Plugin::CPAN::LinksToDocs::No404s>,
 L<POE::Component::IRC::Plugin::CPAN::LinksToDocs::No404s::Remember>
 
 =head1 AUTHOR

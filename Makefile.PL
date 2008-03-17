@@ -10,12 +10,13 @@ WriteMakefile
           'PREREQ_PM' => {
                            'URI' => '1.35',
                            'DBD::SQLite' => '1.14',
+                           'Devel::TakeHashArgs' => '0.001',
                            'Carp' => '1.04',
                            'Test::More' => 0,
                            'LWP::UserAgent' => '2.036',
                            'CPAN::LinksToDocs' => '0.001',
-                           'Class::Data::Accessor' => '0.04001',
-                           'DBI' => '1.602'
+                           'DBI' => '1.602',
+                           'Class::Data::Accessor' => '0.04001'
                          }
         )
 ;

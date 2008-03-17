@@ -6,5 +6,7 @@ lib/CPAN/LinksToDocs/No404s/Remember.pm
 t/00-load.t
 t/pod-coverage.t
 t/pod.t
+t/kwalitee.t
+examples/link.pl
 Makefile.PL
 META.yml

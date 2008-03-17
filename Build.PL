@@ -18,6 +18,7 @@ my $builder = Module::Build->new(
         'LWP::UserAgent'        => 2.036,
         'DBI'                   => 1.602,
         'DBD::SQLite'           => 1.14,
+        'Devel::TakeHashArgs'   => 0.001,
     },
     add_to_cleanup      => [ 'CPAN-LinksToDocs-No404s-Remember-*' ],
     create_makefile_pl => 'traditional',

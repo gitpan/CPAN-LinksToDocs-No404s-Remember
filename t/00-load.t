@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 16;
+use Test::More tests => 17;
 
 BEGIN {
     use_ok('Carp');
@@ -12,6 +12,7 @@ BEGIN {
     use_ok('LWP::UserAgent');
     use_ok('DBI');
     use_ok('DBD::SQLite');
+    use_ok('Devel::TakeHashArgs');
     use_ok('CPAN::LinksToDocs::No404s::Remember');
 }
 
