@@ -1,0 +1,27 @@
+---
+name: CPAN-LinksToDocs-No404s-Remember
+version: 0.001
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: same as CPAN::LinksToDocs::No404s with persistent storage of working links in SQLite database
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  CPAN::LinksToDocs: 0.001
+  Carp: 1.04
+  Class::Data::Accessor: 0.04001
+  DBD::SQLite: 1.14
+  DBI: 1.602
+  LWP::UserAgent: 2.036
+  URI: 1.35
+build_requires:
+  Test::More: 0
+provides:
+  CPAN::LinksToDocs::No404s::Remember:
+    file: lib/CPAN/LinksToDocs/No404s/Remember.pm
+    version: 0.001
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
